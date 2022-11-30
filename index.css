@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#father{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    margin-top: 0px;
+    top: 0px;
+}hr {
+    background-color: #464646;
+    height: 1px;
+    border: none;
+}
+
+.menu-bars {
+    margin-top: 5px;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#nav-menu {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    
+}
+
+#nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    height: 50px;
+    padding: 1rem;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-text:hover {
+    background-color: rgba(144, 144, 144, 0.219);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-menu-items {
+    width: 100%
+}
+
+.nav-icon {
+    padding-right: 1rem;
+    color: #909090;
+}
+
+#youtube-logo {
+    color: #f90201;
+    padding-right: 0.2rem;
+    font-size: 35px;
+    margin-top: 5.5px;
+}
+
+#navbar-toggle {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#navbar-toggle h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar-toggle a {
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: black;
+    font-weight: 100;
+    border: none;
+    font-size: 25px;
+}
+
+.nav-section {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#show-menu {
+    color: white;
+}
+.nav-logo{ 
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.nav-log{
+    margin-bottom: 5px;
+    font-size: 25px;
+font-family: 'Oswald', sans-serif;
+}
+#query{
+    width: 30.75rem;
+    height: 2.2rem;
+    margin: auto;
+    padding-left: 8px;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px solid;
+}
+.Attach {
+    width:100%;
+    display: flex;
+    margin: auto;
+}
+.attach{
+    margin: auto;
+    margin-left: 16rem;
+}
+button{
+    width: 3rem;
+    height: 2.2rem;
+    margin-left: -1rem;
+    text-align: center;
+    border-radius:   0px  50px 50px 0;
+    border: 1px solid;
+}
+
+#mic{
+    padding: 6px 9px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    bottom:  -100px;
+    background-color: #f5f5f5;
+}
+#mic:hover{
+    background-color: #909090;
+}
+
+#bell {
+    padding: 6px 9px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    bottom: -100px;
+    margin-left: 20rem;
+    margin-right: 1.5rem;
+}
+
+#bell:hover {
+    background-color: #909090;
+}
+#profile {
+    border: 1px solid black;
+    padding: 6px 9px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    bottom: -100px;
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+}
+#container div img{
+    width: 350px;
+    margin: auto;
+}
+#container div{
+    width: 100%;
+    margin: 0.7rem;
+}
+#container h3{
+    flex-wrap: nowrap;
+}
+.main {
+    width: 100vw;
+    display: flex;
+}
+
+#container2 {
+    width: auto;
+    margin-top: 70px;
+    margin-left: -40px;
+
+}
+
+iframe {
+    margin-left: 40px;
+}
+
+#container1 {
+    margin-top: 70px;
+
+}
+
+#container1 div {
+    margin: 30px 20px;
+}
+
+#inner {
+    width: 1300px;
+    height: 80px;
+
+    display: flex;
+    margin-right: 80px;
+    text-align: center;
+
+}
+
+#inner img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#inner p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#hrt {
+    margin-top: 20px;
+}
+
+#time {
+    margin-top: 20px;
+}
+
+#main {
+    display: block;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#main img {
+    width: 200px;
+    height: 100px;
+}
+
+#main p {
+    margin-top: 15px;
+}
+
+#main h4 {
+    font-size: 15px;
+}
+
+#main:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

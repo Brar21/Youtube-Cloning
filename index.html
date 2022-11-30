@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youtube</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div id="father">
+
+            <div id="nav">
+                <div class="Attach">
+
+                    <a href="#" class="menu-bars" id="show-menu">
+                        <i class="fas fa-bars SHOW"></i>
+                    </a>
+                    <nav id="nav-menu">
+                        <ul class="nav-menu-items">
+                            <div id="navbar-toggle">
+
+                                <a href="#" class="menu-bars" id="hide-menu">
+                                    <i class="fas fa-bars nav-icon"></i>
+                                </a>
+                                <a href="index.html">
+                                    <h1><i class="fab fa-youtube" id="youtube-logo"></i>YouTube</h1>
+                                </a>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="nav-section">
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fas fa-home nav-icon"></i>Home
+                                    </a>
+                                </li>
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fas fa-fire nav-icon"></i>Trending
+                                    </a>
+                                </li>
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fab fa-youtube nav-icon"></i>Subscription
+                                    </a>
+                                </li>
+                            </div>
+                            <hr>
+                            <div class="nav-section">
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fas fa-play-circle nav-icon"></i>Library
+                                    </a>
+                                </li>
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fas fa-history nav-icon"></i>History
+                                    </a>
+                                </li>
+                                <li class="nav-text">
+                                    <a href="#">
+                                        <i class="fas fa-clock nav-icon"></i>Watch Later
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </nav>
+                    <h1 class="nav-log"><i class="fab fa-youtube nav-logo" id="youtube-logo"></i>YouTube</h1>
+                    <div class="attach">
+                        <input type="text" id="query" placeholder="Search" />
+                        <button onclick="search()"><i class="fas fa-light fa-magnifying-glass"></i></button>
+                        <i class="fa-solid fa-microphone" id="mic"></i>
+                        <i class="fa-regular fa-bell" id="bell"></i>
+                        <i class="fa-solid fa-user" id="profile"></i>
+                    </div>
+
+                </div>
+            </div>
+        <div class="flx">
+            
+            <div id="container"></div>
+        </div>
+        <div id="video-container"></div>
+        </div>
+    </body>
+
+</html>
+<script src="https://kit.fontawesome.com/021052abe9.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
